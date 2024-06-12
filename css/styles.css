@@ -619,16 +619,16 @@ color: #ffffff;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-c:focus+svg{
+.input-c:focus+.svg-input{
     fill: #4D5AE5;
-    border-color: #4D5AE5;
+    
 }
 .svg-input{
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%) ;
-    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comment-m{
     margin-bottom: 16px;
